@@ -1,5 +1,5 @@
 # Sobre a api 
-##UML do Relacionamento:
+## UML do Relacionamento:
 ![alt text](car_rental_api_UML.png)  
 
 ## Filtros
@@ -11,5 +11,5 @@ As rotas suportam filtros utilizando o sinal ? após elas. Os parâmetros aceito
 
 - filter: para utilizar o where do sql. Ex: http:localhost:8080/api/brand_car?filter=name_=_ford(esse espera o atributo, o operador e o valor tudo entre underlines)
 
--Também é possivel utilizar os filtros acima juntos. Ex: http:localhost:8080/api/brand_car?search=id,name&relationship=id,name&filter=name_like_Ki%
+- Também é possivel utilizar os filtros acima juntos. Ex: http:localhost:8080/api/brand_car?search=id,name&relationship=id,name&filter=name_like_Ki%
 
